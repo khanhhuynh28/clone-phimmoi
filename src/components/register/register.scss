@@ -1,0 +1,36 @@
+.register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .register {
+        width: 370px;
+        height: 500px;
+        border-radius: 5px;
+        background-color: #4d4c4c;
+        padding: 30px 30px;
+
+        .title-register {
+            color: #fff;
+        }
+
+        .form-register {
+            margin-top: 20px;
+        }
+
+        span {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .register-submit {
+            background-color: rgba(15, 15, 15, .9);
+            color: #fff;
+        }
+    }
+}

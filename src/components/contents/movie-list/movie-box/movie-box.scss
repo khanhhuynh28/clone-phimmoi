@@ -1,0 +1,72 @@
+.movie-box {
+    width: 200px;
+    height: 380px;
+    color: #fff;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+    }
+
+    .item-movies {
+        .poster-movies {
+            width: 100%;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+
+            .poster-img {
+                width: 200px;
+                object-fit: cover;
+                margin: 10px 0;
+
+            }
+
+            .hover-play {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                right: -1000px;
+                backdrop-filter: blur(5px);
+                padding: 30px;
+                background-color: #1f3d4738;
+                transition: 0.3s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+        }
+
+        .poster-movies:hover .hover-play {
+            right: 0;
+        }
+
+        .data {
+            height: 70px;
+            position: relative;
+
+            .vote {
+                color: #ffc107;
+
+            }
+
+            .title-movie {
+                font-size: 18px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
+            }
+
+            .release-date {
+                color: #666666;
+                font-size: 14px;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+    }
+}

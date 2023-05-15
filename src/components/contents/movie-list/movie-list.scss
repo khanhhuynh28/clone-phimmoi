@@ -1,0 +1,27 @@
+.movie-list-container {
+    width: 100%;
+    height: 100%;
+    background-color: #151414;
+    margin: auto;
+    position: relative;
+
+    .title-movie-list {
+        color: #fff;
+        border-left: 5px solid rgb(59, 59, 244);
+    }
+
+    .gird {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0.7em;
+        justify-content: center;
+    }
+
+    .pagination {
+        position: absolute;
+        bottom: 0;
+        right: 14%;
+        background-color: #666666;
+        border-radius: 10px;
+    }
+}

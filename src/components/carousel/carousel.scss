@@ -1,0 +1,25 @@
+.carousel-container {
+    height: 380px;
+    width: 100%;
+    border-top: 1px solid gray;
+
+    .carousel {
+        padding: 30px 30px 0;
+
+        .carousel-poster {
+            .carousel-poster-item {
+                display: flex;
+
+                .image-item {
+                    width: 560px;
+                    height: 315px;
+                    object-fit: cover;
+                }
+
+                .left {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}

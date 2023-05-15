@@ -1,0 +1,43 @@
+.overview-container {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.ant-tabs-tab-btn {
+    font-size: 20px;
+}
+
+.overview,
+.ant-tabs-nav-wrap {
+    color: #fff;
+}
+
+.overview {
+    font-size: 16px;
+    color: #a1a1a1;
+}
+
+.casts {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2em 1em;
+    justify-content: center;
+    padding: 10px;
+    color: #fff;
+
+    .cast {
+        text-align: center;
+
+        .image {
+            width: 100%;
+        }
+
+        .name {
+            margin-top: 15px;
+            color: #a1a1a1;
+        }
+    }
+}

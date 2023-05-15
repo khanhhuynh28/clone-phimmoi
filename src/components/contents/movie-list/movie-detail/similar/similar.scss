@@ -1,0 +1,32 @@
+.similar-container {
+    width: 100%;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .movie-list {
+        padding: 0;
+
+        .movie-item {
+            text-align: center;
+        }
+
+        .movie-item img {
+            width: 100%;
+            max-width: 250px;
+        }
+
+        .movie-title {
+            margin: 10px 0;
+            font-size: 18px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #a1a1a1;
+        }
+    }
+
+
+}

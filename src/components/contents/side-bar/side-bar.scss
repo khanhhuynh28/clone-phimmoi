@@ -1,0 +1,55 @@
+.side-bar-container {
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+    }
+
+    .side-bar-item {
+        width: 280px;
+        height: 100%;
+
+        .item-trending {
+            display: flex;
+            margin-bottom: 10px;
+            background-color: #2b2b2b;
+            padding: 5px;
+
+            .poster-image {
+                flex: 1;
+
+                .image-item {
+                    width: 60px;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .title-trending {
+                width: 150px;
+                flex: 3;
+                margin-left: 10px;
+
+                .title-poster-trending {
+                    color: #fff;
+                    font-size: 20px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                }
+
+                .rating {
+                    color: #ffc107;
+                    margin-right: 20px;
+                }
+
+                .release-year {
+                    color: #666666;
+                }
+            }
+        }
+
+
+    }
+}

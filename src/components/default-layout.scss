@@ -1,0 +1,43 @@
+.default-layout {
+    height: 100%;
+    padding-top: 70px;
+
+    .content-container {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+
+
+        .content {
+            width: 1200px;
+            height: 100%;
+            background-color: rgba(15, 15, 15, .9);
+
+            .content-movie {
+                display: flex;
+                border-top: 1px solid gray;
+
+                .movie-list {
+                    flex: 3;
+                    border-right: 1px solid gray;
+                    padding: 30px;
+                }
+
+                .side-bar {
+                    flex: 1;
+                    padding: 30px 10px 10px;
+
+                    .title-movie-list {
+                        color: #fff;
+                        margin-bottom: 20px;
+                        border-left: 5px solid rgb(59, 59, 244);
+                    }
+                }
+            }
+        }
+
+        .pagination {
+            text-align: center;
+        }
+    }
+}

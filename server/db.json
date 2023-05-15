@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "email": "Huynhtankhanh281020@gmail.com",
+      "password": "$2a$10$4LAFlsAwoieOw6x5HZdrOu1kgPP.Lca3rMBrd3pi9Pb3OpKuG5N5a",
+      "nickname": "Huỳnh Tấn Khánh",
+      "phone": "0377834115",
+      "address": "Tam Đại - Phú Ninh - Quảng Nam",
+      "createdAt": 1677980655229,
+      "updateAt": 1677980655229,
+      "id": 1
+    },
+    {
+      "email": "huynhtankhanh281020@gmail.com",
+      "password": "$2a$10$r4pD0kGvbXegnZ7sLzs.rezug5d3OiJY2AVcSoalnSPzPhtHb8z4.",
+      "userName": "khanh",
+      "createdAt": 1683440408251,
+      "updateAt": 1683440408251,
+      "id": 2
+    },
+    {
+      "email": "huynhtankhanh1281020@gmail.com",
+      "password": "$2a$10$RVsNeFXFpT.NqEW/3N8rj.e.G8MB0uXs5GjM1wX8zoNOG8mISbYGW",
+      "userName": "rua_den123",
+      "createdAt": 1683440482874,
+      "updateAt": 1683440482874,
+      "id": 3
+    },
+    {
+      "email": "Huynhtankhadnh281020@gmail.com",
+      "password": "$2a$10$EXz6VvTaACw7ZKxOwAm4GulKvQ2Q1QXb6R.U2ZsuwyhAQ5zISA2Wy",
+      "userName": "rua_den123",
+      "createdAt": 1683440581024,
+      "updateAt": 1683440581024,
+      "id": 4
+    },
+    {
+      "email": "khanh28@gmail.com",
+      "password": "$2a$10$IIZdfbySm1VeVDsfYJIIve1yMbLgUbm27V8OIMvlPzCp.PYml/wHG",
+      "userName": "rua_den123",
+      "createdAt": 1683440641583,
+      "updateAt": 1683440641583,
+      "id": 5
+    },
+    {
+      "email": "huynhtankhanh2881020@gmail.com",
+      "password": "$2a$10$D1mwt4cGgQsMpKiFypvJt.eemylcnQWJ8TGOGvtXCOLxktboisC.e",
+      "userName": "khanh",
+      "createdAt": 1684071311802,
+      "updateAt": 1684071311802,
+      "id": 6
+    },
+    {
+      "email": "Huynhtankhanh28101020@gmail.com",
+      "password": "$2a$10$2PfRAaCa3OEdPT43hi.RbOmyYM8YBU60wOW9XDXdxIrrf2Pm0ujz6",
+      "userName": "khanh",
+      "createdAt": 1684161225326,
+      "updateAt": 1684161225326,
+      "id": 7
+    },
+    {
+      "email": "anh.ninh.maps@gmail.com",
+      "password": "$2a$10$1ICMf2hESqRWpRv2XAVnk./d2jzbMcGVP91qqOQQiLQpgS/GafZdy",
+      "userName": "khanh",
+      "createdAt": 1684161285029,
+      "updateAt": 1684161285029,
+      "id": 8
+    },
+    {
+      "email": "Huynhtankhanh2810d20@gmail.com",
+      "password": "$2a$10$x2uXanXnlW3G57qeq6GFMeWxx2Bm.PJfN5EPeVauq37bkAjEQSH4m",
+      "userName": "khanh",
+      "createdAt": 1684161350524,
+      "updateAt": 1684161350524,
+      "id": 9
+    }
+  ]
+}

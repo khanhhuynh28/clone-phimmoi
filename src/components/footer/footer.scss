@@ -1,0 +1,65 @@
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h4 {
+        text-align: center;
+        color: #fff;
+    }
+
+    .footer-item {
+        width: 1200px;
+        border-top: 1px solid gray;
+        background-color: rgba(15, 15, 15, .9);
+
+        .fcmpbox {
+            .primary {
+                display: flex;
+
+                .fotlogo {
+                    padding: 30px;
+                    flex: 1;
+                }
+
+                .columenu {
+                    display: flex;
+                    justify-content: space-around;
+                    flex: 2;
+                    padding: 20px;
+                }
+            }
+        }
+
+        .copy {
+            color: #fff;
+        }
+
+        .fmenu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+            border-top: 1px solid gray;
+
+            .menu {
+                display: flex;
+                margin-bottom: 0;
+                height: 50px;
+                align-items: center;
+
+                .menu-item {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
